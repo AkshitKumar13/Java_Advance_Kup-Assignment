@@ -1,5 +1,30 @@
 JavaHungary.java
 
+
+
+public class JavaHungary {
+    public static void main(String args[])
+    {
+        try
+        {
+            int arr[]= {1, 2, 3, 4, 5};
+            for (int i = 0; i <= 5; i++)
+            {
+                System.out.print ("Array elements are : " + arr[i] + "\n");
+            }
+        }
+        catch (Exception e)
+        {
+            System.out.println ("Exception : " + e);
+        }
+          catch (ArrayIndexOutOfBoundsException ex)  // ArrayIndexOutOfBoundsException has already been caught in Exception e
+        {
+           System.out.println ("ArrayIndexOutOfBoundsException : "+ ex);
+        }
+    }
+}
+
+
 output: Exception 'java.lang.ArrayIndexOutOfBoundsException' has already been caught
 explaination : it shows Exception because we already declare in the first catch block(Exception e) i.e a parent class of ArrayIndexOutOfBoundsException.
 we can handle this exception : if we declare ArrayIndexOutOfBoundsException in first catch block.
