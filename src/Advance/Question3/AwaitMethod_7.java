@@ -6,6 +6,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
+
+//Submit List of tasks to ExecutorService and wait for the completion of all the tasks.
 class ActionService implements Runnable {
 
     private CountDownLatch latch;
@@ -28,7 +30,7 @@ class ActionService implements Runnable {
     }
 }
 
-public class AwaitMethod {
+  class AwaitMethod {
     public static void main(String[] args) {
         CountDownLatch latch = new CountDownLatch(3);
         ExecutorService executor = Executors.newFixedThreadPool(3);

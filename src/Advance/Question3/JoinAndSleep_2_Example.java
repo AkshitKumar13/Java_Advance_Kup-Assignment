@@ -1,6 +1,10 @@
 package Advance.Question3;
 
-public class JoinAndSleepExample extends Thread {
+
+
+//Use sleep and join methods with thread.
+
+public class JoinAndSleep_2_Example extends Thread {
 
 
         public void run(){
@@ -12,9 +16,9 @@ public class JoinAndSleepExample extends Thread {
             }
         }
         public static void main(String args[]){
-            JoinAndSleepExample t1=new JoinAndSleepExample();
-            JoinAndSleepExample t2=new JoinAndSleepExample();
-            JoinAndSleepExample t3=new JoinAndSleepExample();
+            JoinAndSleep_2_Example t1=new JoinAndSleep_2_Example();
+            JoinAndSleep_2_Example t2=new JoinAndSleep_2_Example();
+            JoinAndSleep_2_Example t3=new JoinAndSleep_2_Example();
             t1.start();
             try{
                 t1.join(); // join thread

@@ -4,12 +4,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 
-//Use a singleThreadExecutor to submit multiple threads.
+//   Use a singleThreadExecutor to submit multiple threads.
 //   Try shutdown() and shutdownNow() and observe the difference.
 //    Use isShutDown() and isTerminated() with ExecutorService.
-
-
-
 
 
   class UsingThreadExecutor implements Runnable{

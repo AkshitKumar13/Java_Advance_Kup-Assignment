@@ -1,7 +1,11 @@
 package Advance.Question3;
 
 import java.util.*;
-  class  ScheduleExample {
+
+
+//Schedule task using schedule(), scheduleAtFixedRate() and scheduleAtFixedDelay()
+
+  class ScheduleExample_8 {
     public static void main(String[] args) {
 // creating timer task, timer
         Timer t = new Timer();

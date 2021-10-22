@@ -1,14 +1,15 @@
 package Advance.Question3;
 
 import java.util.function.Consumer;
-public class SynvronizedBlock {
+public class SynvronizedBlock_11 {
 
-
+//Use the Synchronize block to enable synchronization between
+// multiple threads trying to access the method at same time.
     public static void main(String[] args) {
 
         Consumer<String> func = (String param) -> {
 
-            synchronized (SynvronizedBlock.class) {
+            synchronized (SynvronizedBlock_11.class) {
 
                 System.out.println(
                         Thread.currentThread().getName() +

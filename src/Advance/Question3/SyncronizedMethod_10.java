@@ -1,5 +1,6 @@
 package Advance.Question3;
-
+//Use the Synchronize method to enable synchronization between
+// multiple threads trying to access the method at same time.
   class SynchronizeTest extends Thread{
     public static void main(String[] args) {
         PrintTable printTable =new PrintTable();
