@@ -1,0 +1,5 @@
+JavaHungary.java
+
+output: Exception 'java.lang.ArrayIndexOutOfBoundsException' has already been caught
+explaination : it shows Exception because we already declare in the first catch block(Exception e) i.e a parent class of ArrayIndexOutOfBoundsException.
+we can handle this exception : if we declare ArrayIndexOutOfBoundsException in first catch block.
